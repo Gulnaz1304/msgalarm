@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@id/start">
+
+        <OnSwipe
+            app:dragDirection="dragRight"
+            app:maxAcceleration="500"
+            app:onTouchUp="autoCompleteToStart"
+            app:touchAnchorId="@id/btnUnlock" />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:id="@+id/btnUnlock"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="4dp"
+            app:layout_constraintBottom_toBottomOf="@id/containerDismiss"
+            app:layout_constraintStart_toStartOf="@id/containerDismiss"
+            app:layout_constraintTop_toTopOf="@id/containerDismiss" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/btnUnlock"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="4dp"
+            app:layout_constraintBottom_toBottomOf="@id/containerDismiss"
+            app:layout_constraintEnd_toEndOf="@id/containerDismiss"
+            app:layout_constraintTop_toTopOf="@id/containerDismiss" />
+    </ConstraintSet>
+</MotionScene>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MsgAlarmClock</string>
+    <string name="time_pattern">%s:%s</string>
+    <string name="time">Время</string>
+    <string name="days_of_week">Дни недели</string>
+    <string name="description">Описание</string>
+    <string name="remove">Удалить</string>
+    <string name="new_alarm">Новый будильник</string>
+    <string name="swipe_to_cancel">Проведите для отмены</string>
+    <string name="select_at_least_one_day">Выберите хотя бы один день недели</string>
+    <string name="every_day">Каждый день</string>
+    <string name="alarm_add_success">Будильник успешно создан</string>
+    <string name="alarm_remove_success">Будильник успешно удален</string>
+    <string name="alarm_update_success">Будильник успешно обновлен</string>
+    <string name="alarm_remove_confirm_title">Удаление</string>
+    <string name="alarm_remove_confirm_desc">Вы действительно хотите удалить этот будильник?</string>
+    <string name="cancel">Отмена</string>
+    <string name="pause_duration">Длительность паузы (мин): %d</string>
+    <string name="pauses_limit">Количество повторов до отправки смс: %d</string>
+    <string name="contacts">Контакты</string>
+    <string name="alarm_clock">Будильник</string>
+    <string name="not_selected">Не указан</string>
+    <string name="contact_select_error">Контакт не выбран</string>
+    <string name="save">Сохранить</string>
+    <string name="selected_contact">Контакт, который будет уведомлен</string>
+    <string name="sms_text_message">Позвони и разбуди меня, пожалуйста</string>
+    <string name="pause_alarm">Отложить (%d мин)</string>
+    <string name="sms_send_success">СМС успешно отправлено</string>
+</resources>
